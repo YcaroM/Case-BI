@@ -1,5 +1,5 @@
 # Projeto SQL para geração de insights para uma empresa de venda de motos
-## O projeto visa coletar dados das tabelas Vendas.csv e Potencial.csv de uma vendedora de motos fictícia e fazer uma primeira extração de Insights via MySQLServer
+## O projeto visa coletar dados das tabelas Vendas.csv e Potencial.csv de uma vendedora de motos fictícia e fazer uma primeira extração de Insights via SQL Server
 
 Primeiramente criamos tabelas de transação e de potencial de vendas, após isso carregamos os dados das tabelas via BULK INSERT e criamos índices para os dados.
 Após isso, utilizamos tabelas temporárias para gerar diversos dados que nos possibilitam gerar insights para a empresa. 
